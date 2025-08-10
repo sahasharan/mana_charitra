@@ -1,0 +1,13 @@
+# Core dependencies for Mana Charitra Telugu History Chatbot
+streamlit>=1.28.0
+google-generativeai>=0.3.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+PyPDF2>=3.0.1
+pandas>=2.0.3
+numpy>=1.24.3
+
+# Optional dependencies for enhanced features
+# gtts>=2.3.0  # For text-to-speech (uncomment if needed)
+# indic-transliteration>=2.3.0  # For better Telugu processing
+# plotly>=5.15.0  # For advanced visualizations
