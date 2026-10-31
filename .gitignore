@@ -1,0 +1,26 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases, indexes, caches and logs
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+*.pkl
+data/
+logs/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
